@@ -1,0 +1,10 @@
+#-----------------------------------------------------------------
+# Use this file to add customized Bnd instructions for the bundle
+#-----------------------------------------------------------------
+Import-Package: *, \
+  org.apache.wicket.spring, \
+  org.springframework.web.context, \
+  org.springframework.osgi.web.context.support
+  
+Bundle-Classpath: ., WEB-INF/classes
+Webapp-Context: wicket-quickstart
