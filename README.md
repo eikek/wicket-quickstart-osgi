@@ -1,13 +1,13 @@
 wicket quickstart osgi
 ======================
 
-This is a minimalistic project that shows the wicket-quickstart application in action together with OSGi.
+This is a minimalistic project that shows the wicket-quickstart application in action together with OSGi and [spring-dm](http://www.springsource.org/osgi).
 
 
 Organization
 ------------
 
-The project was originally created using [pax](http://wiki.ops4j.org/display/ops4j/Pax) and modified to make it
+The project was originally created using [pax](http://wiki.ops4j.org/display/ops4j/Pax) then modified to make it
 more simple.
 
 All dependencies listed in the  `pom.xml` of  `provision` project are deployed to the OSGi container. The
